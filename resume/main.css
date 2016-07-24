@@ -1,0 +1,58 @@
+
+
+html, body {
+  font-family: Open+Sans;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-top:32px;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+  padding-top:32px;
+}
+
+h5 {
+  font-size: 15px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: italic;
+  padding-bottom:20px;
+}
+
+h6 {
+  font-size: 12px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top:-25px;
+  padding-bottom:20px;
+}
+
+img {
+  padding-right:20px;
+}
+
+.container {
+	width: 800px;
+	align: center;
+	background-color: white;
+	padding-left: 200px;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-bottom: thin black;
+  border-bottom-style: dotted;
+}
+
+li {
+  font-size: 14px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
