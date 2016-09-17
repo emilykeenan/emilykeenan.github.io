@@ -5,12 +5,13 @@ html, body {
   margin: 0;
   width: 100%;
   height: 100%;
+  background: hsl(0,0%,95%) url('background.svg') top left no-repeat;
 }
 
 h1 {
   font-size: 48px;
   font-family: 'Open Sans Condensed', sans-serif;
-  padding-top:32px;
+  padding-top: 5px;
 }
 
 h2 {
@@ -34,21 +35,79 @@ h6 {
   padding-bottom:20px;
 }
 
+a {
+	text-decoration: none;
+	color: hsl(0,0%,0%);
+}
+
+header img {
+	width: 150px;
+	float: left;
+}
+
+nav ul{
+	list-style: none;
+	padding: 10px 0px 10px 0px;
+}
+
+nav li {
+	display: inline;
+	padding-right: 5px;
+	padding-left: 5px;
+	background: hsl(0,0%,95%);
+}
+
+nav li:hover {
+	display: inline;
+	background: hsl(0,0%,65%);
+}
+
+nav {
+	width: 840px;
+	background: hsl(0,0%,100%);
+	margin: auto;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: hsl(0,0%,100%);
+}
+
+a:hover {
+	text-decoration: underline;
+	color: hsl(0,0%,33%);
+}
+
 img {
   padding-right:20px;
 }
 
-.container {
+header {
 	width: 800px;
-	align: center;
-	background-color: white;
-	padding-left: 200px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	background: hsl(0,0%,100%);
+	padding: 12px 20px 1px 20px;
+}
+
+main {
+	width: 800px;
+	background: hsl(0,0%,100%);
+	margin: 0 auto 0 auto;
+	padding: 1px 20px 5px 20px;
+	border-radius: 10px;
 }
 
 p {
   font-size: 18px;
   font-family: 'Open Sans Condensed', sans-serif;
-  border-bottom: thin black;
+  border-bottom: thin hsl(0,0%,0%);
   border-bottom-style: dotted;
 }
 
@@ -56,3 +115,27 @@ li {
   font-size: 14px;
   font-family: 'Open Sans Condensed', sans-serif;
 }
+
+ul {
+    list-style-image: url('bullet.svg');
+}
+
+input [type=text] {
+	display: block;
+	margin: 10px 0px 10px 0px;
+	width: 200px;
+}
+
+textarea {
+	display: block;
+	margin: 10px 0px 30px 0px;
+	width: 400px;
+	height: 200px;
+}
+
+label {
+	font-size: 12px;
+  	font-family: 'Open Sans Condensed', sans-serif;
+  	margin: 30px 0px 5px 0px;
+ 	width: 200px;
+  }
